@@ -1,4 +1,4 @@
-FROM gradle:alpine
+FROM gradle:6.0.1-jdk11
 USER root
 RUN apk add --no-cache \
         ca-certificates \
